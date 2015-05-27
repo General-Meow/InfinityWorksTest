@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <div class="authorities">
+        <form method="post" action="#"  th:action="@{/postAuthorityData}" th:object="${authorityForm}">
+            <label for="authoritySelect">Select Authority</label>
+            <select id="authoritySelect" th:field="*{localAuthorityId}">
+                <option th:each="authority : ${authorityData.authorities}"
+                        th:value="${authority.localAuthorityId}"
+                        th:text="${authority.name}">${authority.name}</option>
+            </select>
+
+            <input type="submit" value="Submit" />
+        </form>
+
+    </div>
+</body>
+</html>
