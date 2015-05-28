@@ -4,13 +4,10 @@
     <output url="file://$USER_HOME$/Desktop/Dropbox/dev/InfinityWorksTest/build/classes/main" />
     <output-test url="file://$USER_HOME$/Desktop/Dropbox/dev/InfinityWorksTest/build/classes/test" />
     <exclude-output />
-    <content url="file://$USER_HOME$/Desktop/Dropbox/dev/InfinityWorksTest">
-      <sourceFolder url="file://$USER_HOME$/Desktop/Dropbox/dev/InfinityWorksTest/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/Desktop/Dropbox/dev/InfinityWorksTest/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$USER_HOME$/Desktop/Dropbox/dev/InfinityWorksTest/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$USER_HOME$/Desktop/Dropbox/dev/InfinityWorksTest/src/test/resources" type="java-test-resource" />
-      <excludeFolder url="file://$USER_HOME$/Desktop/Dropbox/dev/InfinityWorksTest/.gradle" />
-      <excludeFolder url="file://$USER_HOME$/Desktop/Dropbox/dev/InfinityWorksTest/build" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/gradle" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
